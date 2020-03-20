@@ -20,4 +20,4 @@ http://localhost:3036/?txt=AC&c1=f0f&c2=fff
 http://localhost:3036/?txt=AA&name=pic.jpg&dir=2020_03
 
 ## 参数
-txt=AC 用户名，c1=f0f 背景颜色，c2 字体颜色，dir 指定目录，name 指定图片文件名
+txt 用户名，c1 背景颜色，c2 字体颜色，dir 指定存放目录，name 指定图片文件名
