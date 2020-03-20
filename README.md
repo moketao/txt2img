@@ -1,5 +1,9 @@
 # txt2img
 
+输入用户名，输出用户的默认头像：
+![image](https://github.com/moketao/txt2img/raw/master/2020_03/pic.jpg)
+
+
 ## 安装
 cnpm install
 
