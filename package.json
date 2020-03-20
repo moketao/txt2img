@@ -1,0 +1,19 @@
+{
+  "name": "name2img",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "lyo"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "canvas": "^2.6.1",
+    "lyo": "latest"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
