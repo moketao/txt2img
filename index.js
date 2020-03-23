@@ -39,8 +39,10 @@ function draw(txt,dir,fileName,color){
     const out = fs.createWriteStream(outPutPath);
     const stream = canvas.createJPEGStream({quality: 0.95});
     stream.pipe(out);
+    var buff = canvas.toBuffer("image/png");
+    var base64str = buff.toString('base64');
     out.on('finish', () =>  console.log('PNG已生成'));
-    return outPutPath;
+    return '<img src="data:image/png;base64,'+base64str+'"/>'+'<br><code>;base64,'+base64str+'</code>';
 }
 
 initDraw();
